@@ -1,0 +1,545 @@
+@font-face {
+    font-family: "Fonte";
+    src: url("Fonte.TTF");
+}
+
+@font-face {
+    font-family: "Fonte";
+    src: url("Fonte.TTF");
+}
+
+* {
+    font-family: "Fonte";
+    color: rgb(214, 214, 214);
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .pessoais {
+        width: 98% !important;
+    }
+    .quadradoVermelho {
+        width: 98% !important;
+    }
+    .quadradoAzul {
+        width: 98% !important;
+    }
+    .quadrado{
+        width: 98% !important;
+    }
+    .scrollBarInput {
+        max-height: 300px !important;
+    }
+    .aBordaNota{
+        height: 400px !important;
+    }
+    .containerScroll {
+        width: 100% !important;
+        padding-right: 0px !important;
+    }
+
+}
+
+.textoDado {
+    position: relative;
+    left: -18px;
+    text-shadow: 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black;
+}
+
+.bg {
+    width: 100vw;
+    height: 415vh;
+    background-color: black;
+    position: absolute;
+    z-index: -1;
+    background-image: url("RDR.png");
+    background-repeat: space;
+    background-size: 62px;
+    opacity: 0.4;
+}
+
+.pessoais {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin-top: 10px;
+}
+
+.pessoais>div {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.quadradoVermelho {
+    background-color: black;
+    border: 1px solid rgb(1, 99, 16);
+    width: 33vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.quadradoVermelho h3 {
+    font-size: larger;
+    margin-top: 12px;
+}
+
+.quadrado {
+    background-color: black;
+    border: 1px solid rgb(1, 99, 16);
+    width: 73vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.quadrado h3 {
+    font-size: larger;
+    margin-top: 12px;
+}
+
+.quadradoAzul {
+    background-color: black;
+    width: 33vw;
+    padding: 0px 10px;
+
+}
+
+.meio {
+    width: 95%;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.caixa {
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid rgb(1, 99, 16);;
+    outline: none;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+}
+
+.retrato {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.retrato2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.maeAzul {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+.vida {
+    background-color: rgb(128, 1, 1);
+    border: 1px solid gray;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 3px;
+}
+
+.vida span {
+    font-weight: bold;
+    font-variant: small-caps;
+
+}
+
+.conhecimento {
+    background-color: rgb(24, 1, 128);
+    border: 1px solid gray;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 3px;
+    width: 87%;
+}
+
+.conhecimento span {
+    font-weight: bold;
+    font-variant: small-caps;
+
+}
+
+.sangue {
+    background-color: rgb(117, 1, 128);
+    border: 1px solid gray;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 3px;
+    margin-bottom: 25px;
+}
+
+.sangue span {
+    font-weight: bold;
+    font-variant: small-caps;
+
+}
+
+.stamina {
+    background-color: rgb(1, 128, 39);
+    border: 1px solid gray;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 3px;
+    margin-bottom: 25px;
+}
+
+.stamina span {
+    font-weight: bold;
+    font-variant: small-caps;
+
+}
+
+.inputTexto {
+    font-family: "Fonte";
+    outline: none;
+    background: none;
+    border: none;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+.checkbox {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+
+}
+
+.maeCheckbox {
+    display: flex;
+    justify-content: space-around;
+    margin: 3px;
+    padding-bottom: 20px;
+    width: 87%;
+}
+
+.linhaConhecimento {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fundoPreto {
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(1, 99, 16);;
+    width: 80px;
+    text-align: center;
+
+}
+
+.fundoGrande {
+    font-family: "Fonte";
+    background: none;
+    border: none;
+    outline: none;
+    width: 95%;
+    border-bottom: 1px solid rgb(1, 99, 16);;
+    text-align: justify;
+    height: 100%;
+}
+
+.classeFlex {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 17px;
+}
+
+.classeFlexDois {
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 20px 0px;
+}
+
+.classeFlexTres {
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    margin: 20px 0px;
+}
+
+.pulaLinha {
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.aBorda {
+    background-color: black;
+    border: 1px solid rgb(1, 99, 16);; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.aBorda h3 {
+    font-size: larger;
+    margin-top: 12px;
+}
+
+.aBordaNota {
+    background-color: black;
+    border: 1px solid rgb(1, 99, 16);; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.aBordaNota h3 {
+    font-size: larger;
+    margin-top: 12px;
+}
+
+
+.cemPorcenta {
+    width: 100%;
+
+}
+
+.tamanho {
+    height: 100%;
+}
+
+table,
+th,
+td {
+    padding: 9.4px 0px;
+
+}
+
+td {
+    border-bottom: 1px solid rgb(1, 99, 16);;
+}
+
+.scrollBarInput {
+    padding-right: 10px;
+    box-sizing: border-box;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.scrollBarInput::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #000000;
+}
+
+.scrollBarInput::-webkit-scrollbar {
+
+    width: 4px;
+    background-color: #000000;
+}
+
+.scrollBarInput::-webkit-scrollbar-thumb {
+    background-color:  rgb(78, 202, 96);
+}
+
+.menosPorcenta {
+    padding-right: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    max-height: 400px;
+    overflow-y: scroll;
+
+}
+
+.petsStyleContainer {
+    padding-right: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    max-height: 400px;
+    overflow-y: scroll;
+
+}
+
+.menosPorcenta::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #000000;
+}
+
+.menosPorcenta::-webkit-scrollbar {
+
+    width: 4px;
+    background-color: #000000;
+}
+
+.menosPorcenta::-webkit-scrollbar-thumb {
+    background-color:  rgb(78, 202, 96);
+}
+
+.menosPorcenta>table {
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.fundoPretoDois {
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(1, 99, 16);
+    width: 95%;
+    text-align: center;
+
+}
+
+.fontesLegais {
+    font-size: 15px;
+}
+
+.botaoFlutuante {
+    position: absolute;
+}
+
+.containerBotao {
+    display: flex;
+    justify-content: center;
+}
+
+.arrumarSabosta {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.fonteBonita {
+    font-family: "Fonte";
+}
+
+.botaoAdicionarContainer {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.containerScroll {
+    max-height: 330px;
+    overflow-y: scroll;
+    padding-right: 5px;
+}
+
+.containerScroll::-webkit-scrollbar {
+    width: 4px;
+    background-color: #000000;
+}
+
+.containerScroll::-webkit-scrollbar-thumb {
+    background-color: rgb(78, 202, 96);   
+}
+
+.containerScroll::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #000000;
+}
+
+.habilidadesHeader{
+    margin-right: 5px !important;
+}
+
+#modalResultadoDadosContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.botaoCloseModal{
+    right: 20px;
+}
+
+.borderColor{
+    background-color:#016310;
+    opacity: 0.7;
+}
+
+.inputProficienciaPet{
+    width: 25px;
+}
+
+.proficiencia-pet-containter{
+    width: 20%;
+    display: flex;
+}
+
+.inputVidaPetContainer{
+    display: flex;
+    width: 130px;  
+}
+
+.inputVidaPetContainer{
+    display: flex;
+    width: 130px;  
+}
+
+.petSelectorContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inputQuantidadeSpellSlotContainer{
+    display: flex;
+    justify-content : space-between;
+    padding-left: 10px;
+}
+.inputQuantidadeSpellSlot{
+    width: 30px;
+    position: relative;
+    margin-right: 10px;
+}
+
+#deathSaveContainer{
+    display: flex;
+    justify-content: space-around;
+}
