@@ -22,13 +22,13 @@ Follow the below instructions to get started with Red Runner source code:
 5. Open firebaseconfig.js and put your firebase project's configurations:
 ```js
 var firebaseConfig = {
-    //apiKey: "YOUR_API_KEY",
-    // authDomain: "YOUR_AUTH_DOMAIN",
-    // projectId: "YOUR_PROJECT_ID",
-    // storageBucket: "YOUR_STORAGE_BUCKET",
-    // messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    // appId: "YOUR_APP_ID",
-    // measurementId: "YOUR_MEASUREMENT_ID"
+    apiKey: "YOUR_API_KEY",
+    authDomain: "YOUR_AUTH_DOMAIN",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_STORAGE_BUCKET",
+    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+    appId: "YOUR_APP_ID",
+    measurementId: "YOUR_MEASUREMENT_ID"
 };
 ```
 
