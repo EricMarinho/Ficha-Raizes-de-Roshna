@@ -4,7 +4,7 @@ This card was made for the RPG I participate in live, so this is why it is in po
 
 It's open source. :clap:
 
-| [:sparkles: Getting Started](#getting-started) | [:rocket: Download](#download) |
+| [:sparkles: Getting Started](#getting-started) | [:rocket: Installation](#installation) |
 | --------------- | -------- |
 
 <p align="center">
@@ -42,7 +42,7 @@ Make sure you have the below requirements before starting:
 - [Visual Studio Code](https://code.visualstudio.com/)
 - Basic Knowledge about Javascript and Firebase
 
-## Download
+## Installation
 
 You can get access to the D&D Players Card source code by using one of the following ways:
 
