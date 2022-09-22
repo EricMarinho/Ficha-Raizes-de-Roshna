@@ -1,4 +1,4 @@
-# D&D RPG Player Card (Ficha de RPG para D&D)
+# HTML D&D RPG Player Card with Firebase (Ficha de RPG para D&D)
 
 This card was made for the RPG I participate in live, so this is why it is in portuguese.
 
