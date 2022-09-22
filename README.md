@@ -10,6 +10,9 @@ It's open source. :clap:
 <p align="center">
   <img src="card.png"/>
 </p>
+<p align="center">
+  <img src="modal.png"/>
+</p>
 
 ## Getting Started
 
