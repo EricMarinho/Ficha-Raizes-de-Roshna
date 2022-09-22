@@ -46,11 +46,11 @@ Make sure you have the below requirements before starting:
 
 You can get access to the D&D Players Card source code by using one of the following ways:
 
-- [:sparkles: Download Source Code](https://github.com/EricMarinho/Ficha-Raizes-de-Roshna/archive/master.zip)
+- [:sparkles: Download Source Code](https://github.com/EricMarinho/Player-Card/archive/master.zip)
 - Clone the repository locally:
 
 ```bash
-git clone https://github.com/EricMarinho/Ficha-Raizes-de-Roshna.git
+git clone https://github.com/EricMarinho/Player-Card.git
 ```
 
 ## License
