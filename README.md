@@ -4,11 +4,11 @@ This card was made for the RPG I participate in live, so this is why it is in po
 
 It's open source. :clap:
 
-| [:sparkles: Getting Started](#getting-started) | [:rocket: Screen Shots](#screenshots) |
+| [:sparkles: Getting Started](#getting-started) | [:rocket: Download](#download) |
 | --------------- | -------- |
 
 <p align="center">
-  <img src="card.png" />
+  <img src="card.png"/>
 </p>
 
 ## Getting Started
