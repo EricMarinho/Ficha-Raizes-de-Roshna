@@ -40,7 +40,7 @@ var firebaseConfig = {
 Make sure you have the below requirements before starting:
 
 - [Visual Studio Code](https://code.visualstudio.com/)
-- Basic Knowledge about Javascript and Firebase
+- Basic Knowledge about Typescript and Firebase
 
 ## Installation
 
