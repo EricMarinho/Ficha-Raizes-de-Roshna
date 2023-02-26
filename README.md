@@ -1,4 +1,4 @@
-# HTML D&D RPG Player Card with Firebase
+# Typescript D&D RPG Player Card with Firebase
 
 This card was made for the RPG I participate in live, so this is why it is in portuguese.
 
