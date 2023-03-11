@@ -16,7 +16,7 @@ It's open source. :clap:
 
 ## Getting Started
 
-Follow the below instructions to get started with Red Runner source code:
+Follow the below instructions to get started:
 
 1. [Make sure you have all Requirements](#requirements)
 2. Create an account in [google firebase](https://firebase.google.com) and create a new project
